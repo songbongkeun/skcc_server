@@ -23,7 +23,7 @@ public class HelloWorldTestInterfase {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String sayHtmlHelloWorld() {
-		return "<html> " + "<title>" + "Hello Jersey" + "</title>"
-				+ "<body><h1>" + "Hello Jersey" + "</body></h1>" + "</html>";
+		return "<html> " + "<title>" + "Hello World" + "</title>"
+				+ "<body><h1>" + "Hello World" + "</body></h1>" + "</html>";
 	}
 }
